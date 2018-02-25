@@ -18,6 +18,7 @@ class home_page: UIViewController {
     let d = 300
     let r = 150
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -40,7 +41,7 @@ class home_page: UIViewController {
         user_button.frame = CGRect(x: current_x, y: current_y, width: 80, height: 80)
         user_button.layer.cornerRadius = 0.5 * user_button.bounds.size.width
         user_button.clipsToBounds = true
-        user_button.setImage(UIImage(named:"sample_picture.png"), for: .normal)
+        user_button.setImage(UIImage(named:"friend_image.png"), for: .normal)
         view.addSubview(user_button)
     }
     
@@ -48,8 +49,6 @@ class home_page: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    
 
     /*
     // MARK: - Navigation
