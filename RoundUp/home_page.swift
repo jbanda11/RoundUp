@@ -21,6 +21,10 @@ class home_page: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func instagram_clicked(_ sender: UIButton) {
+    }
+    
+    
 
     /*
     // MARK: - Navigation
