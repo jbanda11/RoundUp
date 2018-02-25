@@ -15,6 +15,9 @@
 		9F6EF2D420426578000E68E8 /* login_page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6EF2D320426578000E68E8 /* login_page.swift */; };
 		9FCF84E520426C4000568BEF /* create_account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCF84E420426C4000568BEF /* create_account.swift */; };
 		9FCF84E720426CB300568BEF /* home_page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCF84E620426CB300568BEF /* home_page.swift */; };
+		9FCF84E920427B5A00568BEF /* user_profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCF84E820427B5A00568BEF /* user_profile.swift */; };
+		9FCF84EB20427BB400568BEF /* friend_profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCF84EA20427BB400568BEF /* friend_profile.swift */; };
+		9FCF84ED20427C4B00568BEF /* chat_page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCF84EC20427C4B00568BEF /* chat_page.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		9F6EF2D320426578000E68E8 /* login_page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = login_page.swift; sourceTree = "<group>"; };
 		9FCF84E420426C4000568BEF /* create_account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = create_account.swift; sourceTree = "<group>"; };
 		9FCF84E620426CB300568BEF /* home_page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home_page.swift; sourceTree = "<group>"; };
+		9FCF84E820427B5A00568BEF /* user_profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user_profile.swift; sourceTree = "<group>"; };
+		9FCF84EA20427BB400568BEF /* friend_profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = friend_profile.swift; sourceTree = "<group>"; };
+		9FCF84EC20427C4B00568BEF /* chat_page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chat_page.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +70,9 @@
 				9F6EF2BF20421A47000E68E8 /* AppDelegate.swift */,
 				9F6EF2C120421A47000E68E8 /* ViewController.swift */,
 				9F6EF2C320421A47000E68E8 /* Main.storyboard */,
+				9FCF84EC20427C4B00568BEF /* chat_page.swift */,
+				9FCF84EA20427BB400568BEF /* friend_profile.swift */,
+				9FCF84E820427B5A00568BEF /* user_profile.swift */,
 				9FCF84E620426CB300568BEF /* home_page.swift */,
 				9F6EF2D320426578000E68E8 /* login_page.swift */,
 				9F6EF2C620421A47000E68E8 /* Assets.xcassets */,
@@ -147,8 +156,11 @@
 			files = (
 				9F6EF2D420426578000E68E8 /* login_page.swift in Sources */,
 				9F6EF2C220421A47000E68E8 /* ViewController.swift in Sources */,
+				9FCF84EB20427BB400568BEF /* friend_profile.swift in Sources */,
 				9F6EF2C020421A47000E68E8 /* AppDelegate.swift in Sources */,
 				9FCF84E520426C4000568BEF /* create_account.swift in Sources */,
+				9FCF84E920427B5A00568BEF /* user_profile.swift in Sources */,
+				9FCF84ED20427C4B00568BEF /* chat_page.swift in Sources */,
 				9FCF84E720426CB300568BEF /* home_page.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,12 +298,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7DBGMHQ99F;
 				INFOPLIST_FILE = RoundUp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = banda.javier.RoundUp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -301,12 +315,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7DBGMHQ99F;
 				INFOPLIST_FILE = RoundUp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = banda.javier.RoundUp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
